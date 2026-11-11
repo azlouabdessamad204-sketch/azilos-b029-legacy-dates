@@ -1,3 +1,1 @@
-const util = require('util');
-
-module.exports = { isDate: (value) => util.isDate(value) };
+module.exports = { isDate: (value) => value instanceof Date };
